@@ -9,5 +9,3 @@ info:
  company.name: www.test.com
  build.artifactId: 1111
  build.version: 2222
-profile:
-  dev
