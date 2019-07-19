@@ -1,1 +1,13 @@
-
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: mfh
+    password: mfh19891114
+    url: jdbc:mysql://112.126.64.42:3306/DB_SPRING_CLOUD?characterEncoding=utf-8&useSSL=false&zeroDateTimeBehavior=convertToNull
+info:
+ app.name: order
+ company.name: www.test.com
+ build.artifactId: 1111
+ build.version: 2222
+profile:
+ dev
