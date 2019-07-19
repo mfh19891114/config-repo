@@ -9,5 +9,8 @@ info:
  company.name: www.test.com
  build.artifactId: 1111
  build.version: 2222
+zuul:
+    routes:
+        product: /myproduct/*
 profile:
  dev
